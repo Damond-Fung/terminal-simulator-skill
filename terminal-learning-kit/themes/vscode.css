@@ -1,0 +1,63 @@
+/**
+ * Terminal Learning Kit - VS Code Theme
+ * 类似 VS Code 集成终端的样式
+ */
+
+.terminal-theme-vscode {
+  /* 主色调 */
+  --terminal-bg: #1e1e1e;
+  --terminal-fg: #d4d4d4;
+  --terminal-border: #333333;
+  
+  /* 文本颜色 */
+  --terminal-command: #d4d4d4;
+  --terminal-output: #cccccc;
+  --terminal-system: #858585;
+  --terminal-error: #f48771;
+  --terminal-success: #89d185;
+  
+  /* 强调色 */
+  --terminal-prompt: #4ec9b0;
+  --terminal-cursor: #aeafad;
+  --terminal-button-bg: #0e639c;
+  
+  /* 窗口装饰 */
+  --terminal-header-bg: #252526;
+  --terminal-header-text: #cccccc;
+  --terminal-footer-bg: #1e1e1e;
+  --terminal-text-muted: #858585;
+  
+  /* VS Code 窗口按钮 */
+  --window-close: #c75450;
+  --window-minimize: #e0ad3e;
+  --window-maximize: #5ebd46;
+}
+
+/* 滚动条样式 - VS Code 风格 */
+.terminal-theme-vscode ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.terminal-theme-vscode ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.terminal-theme-vscode ::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 0;
+}
+
+.terminal-theme-vscode ::-webkit-scrollbar-thumb:hover {
+  background: #4f4f4f;
+}
+
+.terminal-theme-vscode ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* 选中文字样式 */
+.terminal-theme-vscode ::selection {
+  background: #264f78;
+  color: #d4d4d4;
+}

@@ -1,0 +1,69 @@
+/**
+ * Terminal Learning Kit - Minimal Theme
+ * 极简风格，无窗口装饰
+ */
+
+.terminal-theme-minimal {
+  /* 主色调 */
+  --terminal-bg: #fafafa;
+  --terminal-fg: #171717;
+  --terminal-border: #e5e5e5;
+  
+  /* 文本颜色 */
+  --terminal-command: #171717;
+  --terminal-output: #525252;
+  --terminal-system: #737373;
+  --terminal-error: #dc2626;
+  --terminal-success: #16a34a;
+  
+  /* 强调色 */
+  --terminal-prompt: #2563eb;
+  --terminal-cursor: #2563eb;
+  --terminal-button-bg: #2563eb;
+  
+  /* 窗口装饰 - 极简模式下隐藏 */
+  --terminal-header-bg: transparent;
+  --terminal-header-text: #737373;
+  --terminal-footer-bg: #fafafa;
+  --terminal-text-muted: #737373;
+}
+
+/* 暗色模式 */
+@media (prefers-color-scheme: dark) {
+  .terminal-theme-minimal {
+    --terminal-bg: #0a0a0a;
+    --terminal-fg: #e5e5e5;
+    --terminal-border: #262626;
+    --terminal-command: #e5e5e5;
+    --terminal-output: #a3a3a3;
+    --terminal-system: #737373;
+    --terminal-footer-bg: #0a0a0a;
+  }
+}
+
+/* 滚动条样式 */
+.terminal-theme-minimal ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.terminal-theme-minimal ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.terminal-theme-minimal ::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .terminal-theme-minimal ::-webkit-scrollbar-thumb {
+    background: #404040;
+  }
+}
+
+/* 选中文字样式 */
+.terminal-theme-minimal ::selection {
+  background: rgba(37, 99, 235, 0.2);
+  color: inherit;
+}

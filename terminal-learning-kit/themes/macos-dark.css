@@ -1,0 +1,59 @@
+/**
+ * Terminal Learning Kit - macOS Dark Theme
+ * 基于 claude.nagdy.me 的终端样式
+ */
+
+.terminal-theme-macos-dark {
+  /* 主色调 */
+  --terminal-bg: #1c1917;
+  --terminal-fg: #e7e5e4;
+  --terminal-border: #44403c;
+  
+  /* 文本颜色 */
+  --terminal-command: #e7e5e4;
+  --terminal-output: #d6d3d1;
+  --terminal-system: #a8a29e;
+  --terminal-error: #ef4444;
+  --terminal-success: #22c55e;
+  
+  /* 强调色 */
+  --terminal-prompt: #fbbf24;
+  --terminal-cursor: #fbbf24;
+  --terminal-button-bg: #f59e0b;
+  
+  /* 窗口装饰 */
+  --terminal-header-bg: #1c1917;
+  --terminal-header-text: #e7e5e4;
+  --terminal-footer-bg: #171412;
+  --terminal-text-muted: #e7e5e4;
+  
+  /* macOS 窗口按钮 */
+  --window-close: #ef4444;
+  --window-minimize: #eab308;
+  --window-maximize: #22c55e;
+}
+
+/* 滚动条样式 */
+.terminal-theme-macos-dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.terminal-theme-macos-dark ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.terminal-theme-macos-dark ::-webkit-scrollbar-thumb {
+  background: #57534e;
+  border-radius: 4px;
+}
+
+.terminal-theme-macos-dark ::-webkit-scrollbar-thumb:hover {
+  background: #78716c;
+}
+
+/* 选中文字样式 */
+.terminal-theme-macos-dark ::selection {
+  background: rgba(251, 191, 36, 0.3);
+  color: #e7e5e4;
+}
