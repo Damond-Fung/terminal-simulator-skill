@@ -16,7 +16,7 @@
 
 ```text
 .
-├── .trae/skills/terminal-simulator/   # 可直接导入 Trae 的 skill 包
+├── terminal-simulator/                # 标准可分享 skill 包
 ├── terminal-learning-kit/             # skill 配套的可复用实现与 demo
 ├── terminal-simulator.zip             # 打包后的跨平台 zip 技能包
 ├── README.md
@@ -35,7 +35,7 @@
 Skill 路径：
 
 ```text
-.trae/skills/terminal-simulator
+terminal-simulator
 ```
 
 ## Companion 实现
@@ -54,7 +54,7 @@ Skill 路径：
 1. 打开 `Settings`
 2. 打开 `Rule & Skills`
 3. 打开 `Skills`
-4. 选择 `Create` 或导入 `.trae/skills/terminal-simulator/SKILL.md`
+4. 选择 `Create` 或导入 `terminal-simulator/SKILL.md`
 
 如果你只下载 zip，请先解压，再导入其中的 `SKILL.md`。
 
